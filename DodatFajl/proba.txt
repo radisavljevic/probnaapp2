@@ -1,5 +1,6 @@
 pubilc static void(){
 
 	int i;
+	String s;
 
 }
