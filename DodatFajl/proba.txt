@@ -1,2 +1,5 @@
-ahaha     pubilc static void(){
+pubilc static void(){
+
+	int i;
+
 }
