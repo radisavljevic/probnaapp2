@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tamna"
+    android:orientation="vertical"
+    tools:context=".IstorijaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:background="@color/cardview_dark_background"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/naslovIstorije"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Lista trebovanja"
+            android:textColor="@color/svetla"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/naslovId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/naslovIstorije"
+            android:layout_below="@+id/naslovIstorije"
+            android:text=" ID-jem"
+            android:textColor="@color/svetla"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listaIstorijeTrebKup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/svetla"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tamna"
+    tools:context="softdesign.petar.mesopromet.PocetnaFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_pocetna"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/dobrodosli"
+            android:textAlignment="center"
+            android:textColor="@color/svetla"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/franca_logo_3" />
+
+        <TextView
+            android:id="@+id/vreme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/svetla"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Naziv kupca:"
+            android:textColor="@color/svetla"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/naziv_kupca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/svetla"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Radna jedinica kupca:"
+            android:textColor="@color/svetla"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/radna_jedinica_kupca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/svetla"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>

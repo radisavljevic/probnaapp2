@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="softdesign.petar.mesopromet.TrebovanjeFragment"
+    android:background="@color/tamna">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/datum_trebovanja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VREME"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/svetla"/>
+
+        <Button
+            android:id="@+id/naruci_db"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="naruči"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/svetla"
+            android:background="@color/colorPrimary"
+            />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/recyclerView"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

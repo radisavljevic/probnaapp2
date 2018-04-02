@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E21E24</color>
+    <color name="colorPrimaryDark">#252525</color>
+    <color name="colorAccent">#545446</color>
+    <color name="tamna">#131212</color>
+    <color name="bordo">#a01c21</color>
+    <color name="svetla">#FFFFFF</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bordertamna"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/zelite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Da li ste sigurni da želite da se odjavite iz aplikacije?"
+        android:textColor="@color/svetla"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zelite"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <Button
+            android:id="@+id/dugme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="NE"
+            android:textColor="@color/svetla"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dugmeOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/dugme"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="DA"
+            android:textColor="@color/svetla"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

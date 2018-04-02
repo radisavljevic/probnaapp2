@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tamna"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/nazivTreb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="naziv artikla: "
+        android:textColor="@color/svetla"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sifraTreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="šifra artikla: "
+        android:textColor="@color/svetla" />
+
+    <TextView
+        android:id="@+id/jmTreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="jedinica mere: "
+        android:textColor="@color/svetla" />
+
+    <TextView
+        android:id="@+id/sifraGrupeTreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="šifra grupe: "
+        android:textColor="@color/svetla" />
+
+    <TextView
+        android:id="@+id/sifraPgrupeTreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="šifra pgrupe: "
+        android:textColor="@color/svetla" />
+
+    <EditText
+        android:id="@+id/kolicina"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:hint="Upišite količinu"
+        android:inputType="numberDecimal"
+        android:textColor="@color/svetla"
+        android:textColorHint="@color/svetla"
+        />
+
+    <Button
+        android:id="@+id/trebButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/svetla"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="3dp"
+        android:text="PORUČi"
+        />
+
+    <Button
+        android:id="@+id/otkaz"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:text="NAZAD"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/svetla"
+        />
+
+
+</LinearLayout>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardview_default_radius"
+    android:clickable="true"
+    android:elevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/naziv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="naziv"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sifraArt"
+            android:layout_below="@id/naziv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sifra"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/jMere"
+            android:layout_below="@id/sifraArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jmere"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sifGru"
+            android:layout_below="@id/jMere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sifraGrupe"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sifPgru"
+            android:layout_below="@id/sifGru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sifraPgru"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/trenutnaKolicina"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/jMere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="trenutna kolicina"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
