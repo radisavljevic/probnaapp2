@@ -1,1 +1,2 @@
-ahahahahahaha
+ahaha     pubilc static void(){
+}
