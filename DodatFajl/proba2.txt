@@ -1,7 +1,12 @@
 public class {
 
-private int i;
-private String s;
+	private int i;
+	private String s;
+
+	public void salji(String a){
+
+	s = s * a;	
+}
 
 
 
